@@ -4,14 +4,14 @@ num=5
 def factorial(n):
     fact =1
 
-    for i in range (2, n+1):
+    for i in range (1, n+1):
 
-        fact *=1
+        fact *= i
 
     return fact
 
-result = factorial(num)
+factorial(num)
 
-print("Factorial of 5 is",result)
+print("Factorial of 5 is",factorial(num))
 
     
