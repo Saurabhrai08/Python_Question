@@ -6,8 +6,3 @@ def multiples(num,limit):
         print (i, end = ",")
 
 result = multiples(num , limit)
-
-    
-    
-
-
